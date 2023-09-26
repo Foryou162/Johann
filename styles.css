@@ -1,29 +1,34 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('https://scontent.fmnl9-3.fna.fbcdn.net/v/t39.30808-6/383751244_646374100895394_5834033936300514358_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGw7jjwjQmwD93eu5Xmzr7JyDeMFEsuOtHIN4wUSy460fA1DTT79X936cX3r8xBpTZ_kr9mOJzBASZgggdrPseI&_nc_ohc=ClcEmIh8H7cAX8AqG8z&_nc_ht=scontent.fmnl9-3.fna&oh=00_AfAB5gjWy98Hvd_4z_YpxITqMHAgMBpqgrXzR2BCGGvPAg&oe=6517AC74');
-    background-position: center;
-    background-size: cover;
-
-  }
-  .circle-photo {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-image: url('https://scontent.fmnl9-1.fna.fbcdn.net/v/t39.30808-6/383463857_646373754228762_5026912516236321904_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeFLMNB_J2W4GMKYlPtGnySxmnL6OSEnPoGacvo5ISc-ga5kV7zvvhsTljM3c-Rhop23_PA2WXKI8KImOM1O0O2d&_nc_ohc=2myTs_tvV2oAX_3ARNR&_nc_ht=scontent.fmnl9-1.fna&oh=00_AfB9gaZDz-MsJD-Kyj6__gec0ZOfkgFjFLn8B-XR5Xpb4Q&oe=65170098');
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  .social-logos {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-  .social-logos img {
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-  }
+  body {
+      margin: 0;
+      padding: 0;
+      background-image: url('image/383751244_646374100895394_5834033936300514358_n.jpg'); /* Replace with your background image URL */
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh; /* Adjust the height as needed */
+    }
+    .circle-photo-container {
+      width: 100%;
+      text-align: center;
+      padding-top: 100px; /* Adjust top padding as needed */
+    }
+    .circle-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: inline-block;
+      border: 5px solid #fff; /* Optional border around the circle */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional box shadow */
+    }
+    .circle-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensure the image fully covers the circle */
+      display: block;
+    }
+    .message {
+      text-align: center;
+      margin-top: 20px; /* Adjust top margin as needed */
+      color: rgb(179, 245, 190); /* Text color */
+      font-size: 24px; /* Font size of the message */
+    }
